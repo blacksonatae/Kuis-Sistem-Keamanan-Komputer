@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Cases;
+use App\Models\References;
 use Illuminate\Http\Request;
 
-class CasesController extends Controller
+class ReferencesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class CasesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Cases $cases)
+    public function show(References $references)
     {
         //
     }
@@ -42,7 +42,7 @@ class CasesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Cases $cases)
+    public function edit(References $references)
     {
         //
     }
@@ -50,7 +50,7 @@ class CasesController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Cases $cases)
+    public function update(Request $request, References $references)
     {
         //
     }
@@ -58,7 +58,7 @@ class CasesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Cases $cases)
+    public function destroy(References $references)
     {
         //
     }

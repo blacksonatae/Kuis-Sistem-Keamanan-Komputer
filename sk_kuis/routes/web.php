@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IncidentsController;
+use App\Http\Controllers\ReferencesController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [[[IncidentsController::class, 'index'], [ReferencesController::class, 'index']]]);
